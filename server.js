@@ -31,7 +31,7 @@ var express = require('express'),
   
 
     app.use('/',function(req,res){
-        res.render('index.html')
+        res.json('Hiding')
     })
 
 
