@@ -13,7 +13,7 @@ var express = require('express'),
 
     app.use('public',express.static(path.join(__dirname,'public')))
 
-    app.set('views',__dirname + '/public')
+    app.set('views',__dirname + '/public/views')
     app.engine('html', require('ejs').renderFile);
     app.set('view engine', 'html');
   
@@ -31,7 +31,7 @@ var express = require('express'),
   
 
     app.use('/',function(req,res){
-        res.json('Hiding')
+        res.render('index.html')
     })
 
 
