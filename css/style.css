@@ -1,108 +1,12 @@
-nav {
-    padding-top: 10px !important;
-    color: #fff;
-    background-color: #ee6e73;
-    width: 100%;
-    height: 90px !important;
-    line-height: 56px;
-}
-
-
-
-.card-panel{
-    padding: 0px !important;
-    border-radius: 0px !important;
-    margin: 0px !important;
-
-}
-
-.row{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto !important;
-}
-
-
-.valign-wrapper{
-    padding-top:5px !important;
+div#index-banner.section.no-pad-bot{
     background-color: #ee6e73 !important;
-    display: -webkit-flex !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-align-items: center !important;
-    -ms-flex-align: center !important;
-    align-items: center !important;
 }
 
-
-
-
-img.responsive-img {  
-    max-width: 100%;
-    height: auto;
-}
-
-.circle{
-
-    border-radius: 50% !important;
-
-}
-.dank{
-margin-top:100px;
+nav.light-blue.lighten-1{
+    background-color: #ee6e73 !important;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
     background-color: transparent;
     color: white !important;
-}
-
-.tabs .tab a {
-    color: white !important;
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 0 24px;
-    font-size: 14px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    transition: color .28s ease;
-}
-
-h1.title {
-    width: 100%;
-    text-align: center;
-    margin: .9em 0 0 0;
-    padding: 0;
-    font-weight: 300;
-    font-size: 1.5em;
-    line-height: 1.4;
-    color: #ffffff;
-}
-
-p.heading {
-    font-size: 1em;
-    margin: .1em 0 .6em;
-    display: inline-block;
-    font-style: roboto;
-    padding: 6px 10px;
-    background: #4db6ac;
-    color: rgba(0, 0, 0, 0.7);
-    border-radius: 4px;
-    line-height: 1;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    width: 100%;
-    text-align: center;
-    padding: 2em;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-.container{
-    margin: 0 auto;
-    max-width: 1280px;
 }
