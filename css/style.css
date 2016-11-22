@@ -137,3 +137,66 @@ a {
     border-radius: 2px;
     background-color: #fff;
 }
+
+.fa-html5:before {
+    content: "\f099";
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+i.html5 {
+    display: block;
+    margin-top: -36px;
+    margin-bottom: 12px;
+    font-size: 40px;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.text-grey.darken-4{
+    text-align: center !important;
+}
+
+.featured-media .card .card-title {
+    font-size: 24px !important;
+    line-height: 24px !important;
+}
+
+.card .card-title {
+    font-weight: 300;
+}
+
+.card {
+    text-align: center;
+    min-height: 230px;
+}
+
+a.card-memo{
+    color: white !important;
+}
+
+.card .card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid white !important;
+    padding: 20px;
+}
+
+div {
+    display: block;
+}
+
+.container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.card i {
+    display: block;
+    font-size: 58px;
+}
