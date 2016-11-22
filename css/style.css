@@ -196,7 +196,9 @@ div {
     margin-right: -0.75rem;
 }
 
-.card i {
+.card i.large.material-icons {
     display: block;
     font-size: 58px;
 }
+
+
