@@ -222,5 +222,9 @@ div {
     z-index: 998;
 }
 
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
 
 
