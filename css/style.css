@@ -254,7 +254,7 @@ a:active, a:hover {
     outline: 0;
 }
 
-header nav ul li a {
+header nav ul li a.white-text {
     position: relative !important;
     color: #fff;
     letter-spacing: -1px;
