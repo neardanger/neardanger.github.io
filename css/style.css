@@ -1,40 +1,9 @@
 div#index-banner.section.no-pad-bot{
-    background-color: #ef5350 !important;
+    background-color: #009688 !important;
 }
 
 
-.tabs .tab a:hover, .tabs .tab a.active {
-    background-color: transparent;
-    color: white !important;
-}
 
-.tabs .tab a:hover, .tabs .tab a.active {
-    background-color: transparent;
-    color: white !important;
-}
-
-.tabs {
-    position: relative;
-    overflow-x: auto;
-    overflow-y: hidden;
-    height: 50px !important;
-    width: 100%;
-    background-color: #fff !important;
-    margin: 0 auto;
-    white-space: nowrap;
-}
-
-.tabs .tab a {
-    color: white !important;
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 0 24px;
-    font-size: 16px !important;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    transition: color .28s ease;
-}
 
 i.medium.material-icons {
     padding: 6px !important;
@@ -113,7 +82,7 @@ h5.section-title:before {
 }
 
 a {
-    color: darkred !important;
+    color:#004d40 !important;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
@@ -227,14 +196,7 @@ nav .nav-wrapper {
     height: 100%;
 }
 
-header nav ul.hide-on-med-and-down {
-    width: 100%;
-    min-height: 60px;
-}
 
-header nav ul {
-    margin: 0 auto;
-}
 
 header nav {
     box-shadow: none;
@@ -242,9 +204,9 @@ header nav {
     width: 100%;
 }
 
-nav {
+nav.red {
     color: #fff !important;
-    background-color: #ee6e73;
+    background-color: #009688 !important;
     width: 100%;
     height: 56px;
     line-height: 56px;
@@ -254,48 +216,6 @@ a:active, a:hover {
     outline: 0;
 }
 
-header nav ul li a.white-text {
-    position: relative !important;
-    color: #fff;
-    letter-spacing: -1px;
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 2.7em;
-    margin: 0 155px !important;
-}
-
-nav ul a {
-    font-size: 1rem;
-    color: #fff;
-    display: block !important;
-    padding: 0 15px !important;
-}
-
-header nav ul {
-    margin: 0 auto !important;
-}
-
-ul {
-    padding: 0 !important;
-}
-
-ul {
-    list-style-type: none;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-ul, menu, dir {
-    display: block;
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
-}
 
 li {
     display: list-item;
@@ -318,3 +238,35 @@ li {
     will-change: left;
 }
 
+header nav ul li a {
+    color: #fff;
+    letter-spacing: -1px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 5em;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: white !important;
+    will-change: left, right;
+}
+
+.tabs .tab a {
+    color: white !important;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: color .28s ease;
+}
+
+.tabs .tab a, .tabs .tab a {
+    background-color: #009688 !important;
+    color: white !important;
+}
