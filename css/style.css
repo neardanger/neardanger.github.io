@@ -270,3 +270,17 @@ header nav ul li a {
     background-color: #009688 !important;
     color: white !important;
 }
+
+img.responsive-img, video.responsive-video {
+    max-width: 100% !important;
+    height: auto;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+
+h1.header.center.white-text{
+    font-size: 3.5rem !important;
+    margin: 1.5rem 0 1.5rem 0 !important;
+
+}
