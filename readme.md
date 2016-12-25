@@ -1,1 +1,1 @@
-# My personal portfolio
+# Steven Magadan's portfolio
