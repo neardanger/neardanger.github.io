@@ -2,7 +2,14 @@ div#index-banner.section.no-pad-bot{
     background-color: #009688 !important;
 }
 
-
+ body {
+     display: flex !important;
+     min-height: 100vh !important;
+     flex-direction: column !important;
+ }
+ main {
+     flex: 1 0 auto !important;
+ }
 
 
 i.medium.material-icons {
@@ -303,3 +310,4 @@ i.medium.material-icons {
     padding-top: 3px !important;
     padding-bottom: 3px !important;
 }
+
