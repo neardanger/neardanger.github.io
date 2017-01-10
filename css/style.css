@@ -257,7 +257,7 @@ header nav ul li a {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: white !important;
+    background-color: #009688 !important;
     will-change: left, right;
 }
 
