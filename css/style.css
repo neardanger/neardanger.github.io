@@ -2,12 +2,12 @@ div#index-banner.section.no-pad-bot{
     background-color: #009688 !important;
 }
 
- body {
+ .Site {
      display: flex !important;
      min-height: 100vh !important;
      flex-direction: column !important;
  }
- main {
+ .Site-content {
      flex: 1 0 auto !important;
  }
 
@@ -307,7 +307,7 @@ i.medium.material-icons {
 }
 
 .section{
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
 
