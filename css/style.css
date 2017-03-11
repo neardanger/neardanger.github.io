@@ -1,7 +1,6 @@
 div#index-banner.section.no-pad-bot{
     background-color: #009688 !important;
 }
-
  .Site {
      display: flex !important;
      min-height: 100vh !important;
@@ -10,8 +9,6 @@ div#index-banner.section.no-pad-bot{
  .Site-content {
      flex: 1 0 auto !important;
  }
-
-
 i.medium.material-icons {
     padding: 6px !important;
     border-radius: 50% !important;
@@ -20,7 +17,6 @@ i.medium.material-icons {
     margin-right: 16px !important;
     font-size: 24px !important;
 }
-
 [class^="material-"], [class*="material-icons"] {
     speak: none;
     display: inline-block;
@@ -33,16 +29,12 @@ i.medium.material-icons {
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
 }
-
 i {
     line-height: inherit !important;
 }
-
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 
 span {
     position: relative !important;
@@ -54,8 +46,6 @@ span {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-
 .section-title {
     position: relative !important;
     margin-bottom: 1em !important;
@@ -63,18 +53,15 @@ span {
     font-weight: 400 !important;
     text-align: left !important;
 }
-
 h2 {
     font-size: 3.56rem !important;
     line-height: 110% !important;
     margin: 1.78rem 0 1.424rem 0 !important;
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     line-height: 1.1;
 }
-
 h5.section-title:before {
     content: "" !important;
     position: absolute !important;
@@ -83,28 +70,23 @@ h5.section-title:before {
     width: 100% !important;
     border-bottom: 5px solid #dddddd !important;
 }
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 a {
     color:#004d40 !important;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
-
 @media only screen and (min-width: 601px){
 .row .col.m4 {
     width: 33.33333%;
     margin-left: 0;
     }
 }
-
 .http-card{
     min-height: 160px;
 }
-
 .card-panel{
     
     transition: box-shadow .25s;
@@ -113,65 +95,51 @@ a {
     border-radius: 2px;
     background-color: #fff;
 }
-
 .fa-html5:before {
     content: "\f099";
 }
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 i.html5 {
     display: block;
     margin-top: -36px;
     margin-bottom: 12px;
     font-size: 40px;
 }
-
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 .text-grey.darken-4{
     text-align: center !important;
 }
-
 .featured-media .card .card-title {
     font-size: 24px !important;
     line-height: 24px !important;
 }
-
 .card .card-title {
     font-weight: 300;
 }
-
 .card {
     text-align: center;
     min-height: 230px;
 }
-
 a.card-memo{
     color: white !important;
 }
-
 .card .card-action {
     position: relative;
     background-color: inherit;
     border-top: 1px solid white !important;
     padding: 20px;
 }
-
 div {
     display: block;
 }
-
 .container .row {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
 }
-
 .card i.large.material-icons {
     display: block;
     font-size: 58px;
@@ -181,14 +149,12 @@ div {
     padding: 20px;
     border-radius: 0 0 2px 2px;
 }
-
 @media only screen and (min-width: 601px){
 .row .col.m3 {
     width: 25%;
     margin-left: 0;
     }
 }
-
 .fixed-action-btn {
     position: fixed;
     right: 23px;
@@ -197,20 +163,15 @@ div {
     margin-bottom: 0;
     z-index: 998;
 }
-
 nav .nav-wrapper {
     position: relative !important;
     height: 100%;
 }
-
-
-
 header nav {
     box-shadow: none;
     margin-top: 15px;
     width: 100%;
 }
-
 nav.red {
     color: #fff !important;
     background-color: #009688 !important;
@@ -218,17 +179,13 @@ nav.red {
     height: 56px;
     line-height: 56px;
 }
-
 a:active, a:hover {
     outline: 0;
 }
-
-
 li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
-
 .side-nav {
     position: fixed;
     width: 240px;
@@ -244,7 +201,6 @@ li {
     overflow-y: auto;
     will-change: left;
 }
-
 header nav ul li a {
     color: #fff;
     letter-spacing: -1px;
@@ -252,7 +208,6 @@ header nav ul li a {
     font-weight: 400;
     font-size: 5em;
 }
-
 .tabs .indicator {
     position: absolute;
     bottom: 0;
@@ -260,7 +215,6 @@ header nav ul li a {
     background-color: #009688 !important;
     will-change: left, right;
 }
-
 .tabs .tab a {
     color: white !important;
     display: block;
@@ -272,27 +226,21 @@ header nav ul li a {
     overflow: hidden;
     transition: color .28s ease;
 }
-
 .tabs .tab a, .tabs .tab a {
     background-color: #009688 !important;
     color: white !important;
 }
-
 img.responsive-img, video.responsive-video {
     max-width: 100% !important;
     height: auto;
     padding-bottom: 0px !important;
     padding-top: 0px !important;
 }
-
-
 h1.header.center.white-text{
     font-size: 3.5rem !important;
     margin: 1.5rem 0 1.5rem 0 !important;
 
 }
-
-
 i.medium.material-icons {
     padding: 6px !important;
     border-radius: 50% !important;
@@ -301,11 +249,9 @@ i.medium.material-icons {
     margin-right: 16px !important;
     font-size: 24px !important;
 }
-
 .row{
     margin-bottom: 15px !important;
 }
-
 .section{
     padding-top: 5px !important;
     padding-bottom: 5px !important;
