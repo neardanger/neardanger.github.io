@@ -9,6 +9,13 @@
       draggable: true // Choose whether you can drag to open on touch screens
     }
   );
+
+  var url = 'https://stevens-looming-thoughts.ghost.io/'
+  $.get(ghost.url.api('posts', {limit: 2})).done(function (data){
+  console.log('posts', data.posts);
+}).fail(function (err){
+  console.log(err);
+});
         
   });
 
