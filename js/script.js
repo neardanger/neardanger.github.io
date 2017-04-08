@@ -10,11 +10,6 @@
     }
   );
 
-  $.get(ghost.url.api('posts')).done(function (data){
-  console.log('posts', data.posts);
-}).fail(function (err){
-  console.log(err);
-});
         
   });
 
