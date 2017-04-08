@@ -10,8 +10,7 @@
     }
   );
 
-  var url = 'https://stevens-looming-thoughts.ghost.io/'
-  $.get(ghost.url.api('posts', {limit: 3})).done(function (data){
+  $.get(ghost.url.api('posts')).done(function (data){
   console.log('posts', data.posts);
 }).fail(function (err){
   console.log(err);
