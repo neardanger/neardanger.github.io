@@ -18,28 +18,6 @@
 	<script type="text/javascript" src="js/script.js"></script>
 	<meta name="viewport" content="width=device-width,minimum-scale=1">
 	<script src="https://use.fontawesome.com/d713c465c1.js"></script>
-<script type="text/javascript" src="https://stevens-looming-thoughts.ghost.io/shared/ghost-url.min.js"></script>
-<script type="text/javascript">
-ghost.init({
-  clientId: "ghost-frontend",
-  clientSecret: "12059ABC"
- });
-  
-function onSuccess(data) {
-  var $result = $('#blog-posts');
-  $.each(data.posts, function (i, post) {
-    $result.append(
-      '<li>' + post.title + '</li>'
-    );
-  });
-}  
-
-jQuery(document).ready(function () {
-  $.get(
-    ghost.url.api('posts', {limit: 3})
-  ).done(onSuccess);
-});
-</script>
 </head>
 <body class="Site">
 	<header>
@@ -48,7 +26,7 @@ jQuery(document).ready(function () {
 			<h1 class="header center white-text">Steven Magadan</h1>
 			<div class="row center" id="title-picture">
 					<div class="col s4 offset-s4">
-						<img src="images/steven3.png" class="circle responsive-img"></img>
+						<img src="images/steven3-min.png" class="circle responsive-img"></img>
 				</div>
 			</div>
 		</div>
@@ -200,10 +178,6 @@ jQuery(document).ready(function () {
 			</div>
 		</div>
 	</div>
-	<aside>
-  <h3>Tag list</h3>
-  <ol id="tag-list"></ol>
-</aside> 
 	<div class="container">
 		<div class="row">
 			<h5 class="section-title"><span><i class="medium material-icons">info_outline</i>Random Facts</span></h5>
