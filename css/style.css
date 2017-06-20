@@ -285,6 +285,7 @@ p{
     -webkit-margin-end: 0px !important;
 }
 .h1.header.center.white-text{
-    margin-top: -40px !important;
-    margin-bottom: 100px !important;
+    margin-top: -45px !important;
+    margin-bottom: 40px !important;
+    padding-bottom: 45px !important;
     }
