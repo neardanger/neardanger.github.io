@@ -256,4 +256,35 @@ i.medium.material-icons {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
 }
-
+@media (min-width :768px){
+.initial-icon{
+    margin-top: 150px !important;
+    }
+}
+.initial-icon{
+    border: 3px solid white !important;
+    transform: rotate(45deg) !important;
+    height: 100px !important;
+    width: 100px !important;
+    margin: 95px auto;
+}
+.initials{
+    transform: rotate(-45deg) !important;
+    font-size: 45px !important;
+    font-family: 'Roboto';
+    margin-top: 16px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    text-align: center !important;
+}
+p{
+    display:block !important;
+    -webkit-margin-before: 1em !important;
+    -webkit-margin-after: 1em !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-end: 0px !important;
+}
+.h1.header.center.white-text{
+    margin-top: -40px !important;
+    margin-bottom: 100px !important;
+    }
