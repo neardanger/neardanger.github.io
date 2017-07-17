@@ -1,5 +1,5 @@
 div#index-banner.section.no-pad-bot{
-    background-color: #009688 !important;
+    background-color: #3f51b5  !important;
 }
  .Site {
      display: flex !important;
@@ -174,7 +174,7 @@ header nav {
 }
 nav.red {
     color: #fff !important;
-    background-color: #009688 !important;
+    background-color: #3f51b5  !important;
     width: 100%;
     height: 56px;
     line-height: 56px;
@@ -212,7 +212,7 @@ header nav ul li a {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #009688 !important;
+    background-color: #3f51b5  !important;
     will-change: left, right;
 }
 .tabs .tab a {
@@ -227,7 +227,7 @@ header nav ul li a {
     transition: color .28s ease;
 }
 .tabs .tab a, .tabs .tab a {
-    background-color: #009688 !important;
+    background-color: #3f51b5  !important;
     color: white !important;
 }
 img.responsive-img, video.responsive-video {
@@ -284,3 +284,9 @@ h1.header.center.white-text{
     margin-bottom: 40px !important;
     padding-bottom: 45px !important;
     }
+#sendMessage{
+    background-color: #5c6bc0 !important;
+}
+#sendResume{
+    background:#5c6bc0 !important;
+}
