@@ -290,3 +290,7 @@ h1.header.center.white-text{
 #sendResume{
     background:#5c6bc0 !important;
 }
+.section{
+    margin-top: 10px !important;
+    padding: 10px;
+}
