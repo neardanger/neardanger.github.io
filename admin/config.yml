@@ -1,0 +1,6 @@
+backend:
+  name: github
+  repo: neardanger/neardanger.github.io
+  branch: master
+  publish_mode: editorial_workflow
+  media_folder: "img/uploads"
