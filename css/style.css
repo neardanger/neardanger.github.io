@@ -369,3 +369,14 @@ div.git-icons i {
 
 
 /*---------*/
+
+
+canvas {
+    display: block !important;
+}
+div#particles-js {
+    top: 0 !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+}
